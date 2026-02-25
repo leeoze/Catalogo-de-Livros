@@ -1,0 +1,104 @@
+/* Reset simples */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da aplicação */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Container central */
+.app-container {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Título */
+.app-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+/* Formulário */
+.book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.book-form input,
+.book-form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.book-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #6c8cff;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-form button:hover {
+  background-color: #5a78e0;
+}
+
+/* Lista */
+.book-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Item do livro */
+.book-item {
+  background-color: #f9fafb;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Texto do livro */
+.book-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-info strong {
+  color: #34495e;
+}
+
+/* Botão remover */
+.book-item button {
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-item button:hover {
+  background-color: #e05656;
+}
